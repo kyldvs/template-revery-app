@@ -3,6 +3,7 @@
   (public_name hello_world)
   (ocamlopt_flags -w -9-27)
   (ocamlc_flags -w -9-27)
-  (libraries)
+  (preprocess (pps brisk-reconciler.ppx))
+  (libraries Revery)
 )
 (include_subdirs unqualified)
