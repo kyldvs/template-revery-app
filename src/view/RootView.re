@@ -31,6 +31,7 @@ let%component main = () => {
 };
 
 let consoleReporter = Timber.Reporter.console(~enableColors=true, ());
+
 let init = app => {
   Revery.App.initConsole();
 

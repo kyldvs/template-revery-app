@@ -4,7 +4,7 @@
   "description": "This is a revery app.",
   "license": "MIT",
   "esy": {
-    "build": "refmterr dune build -p #{self.name}",
+    "build": "dune build -p #{self.name}",
     "install": [
       "esy-installer hello_world.install"
     ],
@@ -26,9 +26,8 @@
     "@esy-ocaml/reason": ">= 3.6.0 < 4.0.0",
     "@opam/dune": ">=2.6",
     "@reason-native/console": "^0.1.0",
-    "@revery/timber": "*",
+    "@revery/timber": "^2.0.0",
     "ocaml": "~4.10",
-    "refmterr": "*",
     "revery": "revery-ui/revery"
   },
   "devDependencies": {
@@ -37,7 +36,7 @@
     "@reason-native/rely": "*"
   },
   "resolutions": {
-    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#5df0ce2",
+    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#bd6e4933",
     "@revery/esy-harfbuzz": "github:kyldvs/esy-harfbuzz#f43deb1"
   }
 }

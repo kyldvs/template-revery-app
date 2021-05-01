@@ -1,6 +1,6 @@
 # `hello_world`
 
-This is a Reason library.
+This is a Revery app.
 
 ## Template Init
 
@@ -30,11 +30,21 @@ _This may be useful: [Global npm without sudo](https://github.com/sindresorhus/g
 
 ```bash
 esy
+esy @app
+esy @test
 ```
 
 _This is a combination of `esy install` and `esy build`_
 
-## Run tests for `HelloWorld.re`
+## Launch app
+
+```bash
+esy app
+```
+
+_This should automatically rebuild if there are changes_
+
+## Run tests
 
 ```bash
 esy test
