@@ -76,8 +76,9 @@ function rename_template() {
 
   echo "${GREEN}Done!${RESET}"
   echo ""
-  echo "  - Rebuild with ${BOLD}esy && esy @test${RESET}"
-  echo "  - Run tests with ${BOLD}esy test -u${RESET}"
+  echo "  - Rebuild with ${BOLD}esy && esy @app && esy @test${RESET}"
+  echo "  - Run app with ${BOLD}esy app${RESET}"
+  echo "  - Update tests with ${BOLD}esy test -u${RESET}"
   echo "  - Check the changes, then commit if everything looks good"
   echo ""
 };
