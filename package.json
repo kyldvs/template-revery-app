@@ -29,6 +29,7 @@
     "@opam/dune": ">=2.6",
     "@reason-native/console": "^0.1.0",
     "ocaml": "~4.10",
+    "revery": "revery-ui/revery",
     "refmterr": "*"
   },
   "devDependencies": {
