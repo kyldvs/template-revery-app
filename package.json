@@ -4,7 +4,7 @@
   "description": "This is a revery app.",
   "license": "MIT",
   "esy": {
-    "build": "dune build -p #{self.name}",
+    "build": "refmterr dune build -p #{self.name}",
     "install": [
       "esy-installer hello_world.install"
     ],
@@ -28,7 +28,8 @@
     "@reason-native/console": "^0.1.0",
     "@revery/timber": "^2.0.0",
     "ocaml": "~4.10",
-    "revery": "revery-ui/revery"
+    "revery": "revery-ui/revery",
+    "refmterr": "*"
   },
   "devDependencies": {
     "@opam/merlin": "*",
